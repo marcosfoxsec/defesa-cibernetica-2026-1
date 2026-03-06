@@ -11,16 +11,6 @@
 
 A disciplina de **Defesa Cibernética** do IME aborda os fundamentos teóricos e práticos da segurança da informação com ênfase na proteção de sistemas, redes e dados em ambientes computacionais modernos.
 
-Os tópicos cobertos incluem:
-
-- **Criptografia clássica e moderna** — cifras de substituição, cifras de bloco e fluxo, criptografia assimétrica
-- **Funções de hash criptográfico** — integridade, colisões, resistência a pré-imagem e segunda pré-imagem
-- **Protocolos de segurança** — TLS/SSL, autenticação, troca de chaves
-- **Segurança em redes** — firewalls, IDS/IPS, VPNs, análise de tráfego
-- **Análise de vulnerabilidades** — exploração, mitigação e gestão de riscos
-- **Defesa em profundidade** — princípios de arquitetura segura
-- **Resposta a incidentes** — detecção, contenção e recuperação
-
 ---
 
 ## Exercícios e implementações
