@@ -22,6 +22,7 @@ Os códigos deste repositório são implementações práticas dos conceitos est
 | `cifra_cesar.py` | Criptografia clássica | Implementação interativa da Cifra de César com cifragem e decifragem |
 | `cifra_de_cesar_com_confidencialidade.py` | Confidencialidade | Extensão da Cifra de César com derivação de chave via SHA-256 e entrada de senha oculta (`getpass`) |
 | `hash_collision.py` | Funções de hash | Verificação de colisão MD5 entre dois ou mais arquivos |
+| `integrity_check.py` | Integridade | Verificação de integridade entre arquivos com MD5, SHA-256 e BLAKE2b — expõe colisões MD5 que passariam despercebidas em verificações de integridade |
 
 ---
 
@@ -32,6 +33,7 @@ Os códigos deste repositório são implementações práticas dos conceitos est
 ├── cifra_cesar.py                              # Cifra de César — criptografia por substituição
 ├── cifra_de_cesar_com_confidencialidade.py     # Cifra de César com KDF (SHA-256) e getpass
 ├── hash_collision.py                           # Detecção de colisão MD5 entre arquivos
+├── integrity_check.py                          # Verificação de integridade: MD5 vs SHA-256 vs BLAKE2b
 └── README.md
 ```
 
