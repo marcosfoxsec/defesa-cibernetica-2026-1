@@ -20,6 +20,7 @@ Os códigos deste repositório são implementações práticas dos conceitos est
 | Arquivo | Conceito | Descrição |
 |---|---|---|
 | `cifra_cesar.py` | Criptografia clássica | Implementação interativa da Cifra de César com cifragem e decifragem |
+| `cifra_de_cesar_com_confidencialidade.py` | Confidencialidade | Extensão da Cifra de César com derivação de chave via SHA-256 e entrada de senha oculta (`getpass`) |
 | `hash_collision.py` | Funções de hash | Verificação de colisão MD5 entre dois ou mais arquivos |
 
 ---
@@ -28,8 +29,9 @@ Os códigos deste repositório são implementações práticas dos conceitos est
 
 ```
 .
-├── cifra_cesar.py       # Cifra de César — criptografia por substituição
-├── hash_collision.py    # Detecção de colisão MD5 entre arquivos
+├── cifra_cesar.py                              # Cifra de César — criptografia por substituição
+├── cifra_de_cesar_com_confidencialidade.py     # Cifra de César com KDF (SHA-256) e getpass
+├── hash_collision.py                           # Detecção de colisão MD5 entre arquivos
 └── README.md
 ```
 
