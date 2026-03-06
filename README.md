@@ -7,57 +7,47 @@
 
 ---
 
-## Cifra de César — Implementação Interativa
+## Sobre a disciplina
 
-Script Python que implementa a **Cifra de César**, uma das técnicas de criptografia mais antigas, baseada na substituição de cada letra da mensagem por outra deslocada um número fixo de posições no alfabeto.
+A disciplina de **Defesa Cibernética** do IME aborda os fundamentos teóricos e práticos da segurança da informação com ênfase na proteção de sistemas, redes e dados em ambientes computacionais modernos.
 
-### Como funciona
+Os tópicos cobertos incluem:
 
-Dado um texto e uma rotação `n`, cada letra é deslocada `n` posições:
-
-```
-Mensagem:  ATAQUE AO AMANHECER
-Rotação:   3
-Cifrada:   DWDTXH DR DPDQKHFHU
-```
-
-Para decifrar, aplica-se a rotação inversa (`-n`).
-
-### Funcionalidades
-
-- Cifrar mensagem com rotação definida pelo usuário (1–25)
-- Decifrar mensagem com rotação conhecida
-- Preserva maiúsculas, minúsculas e caracteres especiais (espaços, pontuação)
-- Validação de entrada com tratamento de erros
-- Interface interativa via terminal
-
-### Execução
-
-```bash
-python3 cifra_cesar.py
-```
-
-```
-==============================
-       CIFRA DE CESAR
-==============================
-  [1] Cifrar mensagem
-  [2] Decifrar mensagem
-  [0] Sair
-==============================
-```
-
-### Requisitos
-
-- Python 3.6+
-- Sem dependências externas
+- **Criptografia clássica e moderna** — cifras de substituição, cifras de bloco e fluxo, criptografia assimétrica
+- **Funções de hash criptográfico** — integridade, colisões, resistência a pré-imagem e segunda pré-imagem
+- **Protocolos de segurança** — TLS/SSL, autenticação, troca de chaves
+- **Segurança em redes** — firewalls, IDS/IPS, VPNs, análise de tráfego
+- **Análise de vulnerabilidades** — exploração, mitigação e gestão de riscos
+- **Defesa em profundidade** — princípios de arquitetura segura
+- **Resposta a incidentes** — detecção, contenção e recuperação
 
 ---
 
-## Estrutura do Repositório
+## Exercícios e implementações
+
+Os códigos deste repositório são implementações práticas dos conceitos estudados em aula. O objetivo é consolidar o entendimento teórico por meio de demonstrações funcionais.
+
+| Arquivo | Conceito | Descrição |
+|---|---|---|
+| `cifra_cesar.py` | Criptografia clássica | Implementação interativa da Cifra de César com cifragem e decifragem |
+| `hash_collision.py` | Funções de hash | Verificação de colisão MD5 entre dois ou mais arquivos |
+
+---
+
+## Estrutura do repositório
 
 ```
 .
-├── cifra_cesar.py   # Implementação da Cifra de César
-└── README.md        # Documentação
+├── cifra_cesar.py       # Cifra de César — criptografia por substituição
+├── hash_collision.py    # Detecção de colisão MD5 entre arquivos
+└── README.md
 ```
+
+---
+
+## Referências
+
+- STALLINGS, W. *Cryptography and Network Security*. 8. ed. Pearson, 2022.
+- FERGUSON, N.; SCHNEIER, B.; KOHNO, T. *Cryptography Engineering*. Wiley, 2010.
+- NIST FIPS 180-4 — *Secure Hash Standard (SHS)*
+- WANG, X. et al. *How to Break MD5 and Other Hash Functions*. Eurocrypt, 2005.
